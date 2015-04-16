@@ -4,6 +4,7 @@ body {
 
 header, main, footer {
   min-width: 855px;
+  overflow: auto;
 }
 
 header .container, main .container, footer .container {
@@ -29,7 +30,8 @@ header nav {
 main {
   background: white;
   overflow: auto;
-  
+  margin: 25px;
+  background-color:#09d0fb ;
 
 }
 
@@ -52,4 +54,3 @@ footer .sitemap {
   float: right;
   width: 285px;
 }
-
